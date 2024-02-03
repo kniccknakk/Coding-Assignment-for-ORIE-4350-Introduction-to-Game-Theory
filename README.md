@@ -4,8 +4,7 @@ This repository contains my work for a project wherein I simulated ficticious pl
 
 This is the premis: 
 
-Simulate fictitious play in game 1 and game 2, respectively. You can choose an arbi-
-trary initial state for your algorithm. In each game, answer the following questions:
+Simulate fictitious play in game 1 and game 2, respectively. You can choose an arbitrary initial state for your algorithm. In each game, answer the following questions:
 
 1. Does strategy sequence converge? Does strategy sequence converge in time averaged sense?
 2. Does payoffs converge?
@@ -13,14 +12,17 @@ trary initial state for your algorithm. In each game, answer the following quest
 
 Game 1:
 
-     R       P       S
-R (0, 0) (-1, 1) (1, -1)
-P (1, -1) (0, 0) (-1, 1)
-S (-1, 1) (1, -1) (0, 0)
+|   | R       | P       | S       |   |
+|---|---------|---------|---------|---|
+| R | (0, 0)  | (-1, 1) | (1, -1) |   |
+| P | (1, -1) | (0, 0)  | (-1, 1) |   |
+| S | (-1, 1) | (1, -1) | (0, 0)  |   |
+
 
 
 Game 2:
-     R     P      S
-R (0, 0) (0, 1) (1, 0)
-P (1, 0) (0, 0) (0, 1)
-S (0, 1) (1, 0) (0, 0)
+|   | R      | P      | S      |   |
+|---|--------|--------|--------|---|
+| R | (0, 0) | (0, 1) | (1, 0) |   |
+| P | (1, 0) | (0, 0) | (0, 1) |   |
+| S | (0, 1) | (1, 0) | (0, 0) |   |
